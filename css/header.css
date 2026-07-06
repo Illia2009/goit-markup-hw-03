@@ -6,6 +6,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+    margin-right: 76px;
 }
 
 .logo .accent {
@@ -19,6 +20,8 @@
 }
 
 .links {
+    padding: 24px 0;
+    display: inline-block;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -27,9 +30,8 @@
     color: #2E2F42;   
 }
 
-.address {
-    font-style: normal;
-    font-family: "Roboto", sans-serif;
+.header-address {
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -42,11 +44,33 @@
     color: #404bbf;
 }
 
-.address:hover,
-.address:focus {
+.header-address:hover,
+.header-address:focus {
     color: #404bbf;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc; 
+    background-color: #ffffff;
+}
 
+.header .header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts {
+    margin-left: auto;
+}
 
 

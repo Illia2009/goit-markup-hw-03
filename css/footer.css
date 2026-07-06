@@ -1,5 +1,6 @@
 .footer-item {
     background: #2E2F42;
+    padding: 100px 0px;
 }
 
 .footer-logo {
@@ -23,10 +24,10 @@
 }
 
 .footer-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
